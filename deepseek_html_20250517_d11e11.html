@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Educacional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        #resultado {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chatbot Educacional</h1>
+        <p>Um projeto para ajudar a identificar necessidades educacionais em crianças de 5 a 12 anos.</p>
+        
+        <div id="chatbot-container">
+            <h2>Teste Interativo</h2>
+            <div id="pergunta-area"></div>
+            <div id="resposta-area">
+                <input type="text" id="resposta-input" placeholder="Sua resposta...">
+                <button onclick="verificarResposta()">Enviar</button>
+            </div>
+            <div id="resultado"></div>
+        </div>
+
+        <h2>Sobre o Projeto</h2>
+        <p>Este chatbot foi desenvolvido para ajudar pais e educadores a identificar possíveis dificuldades de aprendizagem em crianças.</p>
+        
+        <h2>Como Usar</h2>
+        <ol>
+            <li>Clique em "Iniciar Teste"</li>
+            <li>Responda as perguntas com atenção</li>
+            <li>Receba o relatório ao final</li>
+        </ol>
+        <button onclick="iniciarTeste()">Iniciar Teste</button>
+    </div>
+
+    <script>
+        // Aqui você pode inserir o código JavaScript do chatbot
+        // Ou linkar para um arquivo externo com o script completo
+        function iniciarTeste() {
+            document.getElementById('pergunta-area').innerHTML = "<p>Teste iniciado! Em desenvolvimento...</p>";
+        }
+        
+        function verificarResposta() {
+            const resposta = document.getElementById('resposta-input').value;
+            document.getElementById('resultado').innerHTML = `Você respondeu: ${resposta}`;
+        }
+    </script>
+</body>
+</html>
