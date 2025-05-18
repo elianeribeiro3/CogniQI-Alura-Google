@@ -10,8 +10,24 @@ Original file is located at
 import random
 
 def chatbot_educacional():
+   
+    ## CogniQI - Chatbot de Diagnóstico Educacional para Crianças (5-12 anos)
+
+**CogniQI** é um chatbot educacional interativo desenvolvido em Python, projetado para auxiliar na identificação precoce de possíveis dificuldades de aprendizado em crianças de 5 a 12 anos. O chatbot apresenta uma série de perguntas lúdicas e desafiadoras em áreas como lógica, matemática, português e ciências, fornecendo um ambiente de aprendizado divertido e eficaz.
+
+##   Motivação
+
+A escolha desse tema nasceu de uma dor real que vivi de perto — a luta da minha sobrinha de 9 anos com as dificuldades de aprendizagem, somada ao impacto alarmante do analfabetismo funcional em jovens e adultos, revelado por recentes pesquisas. Acredito que, quanto antes identificarmos essas barreiras, mais rápido e eficaz será o caminho para transformar a educação em uma experiência de sucesso! Este projeto busca oferecer uma ferramenta acessível e intuitiva para pais, educadores e responsáveis, contribuindo para um futuro educacional mais promissor.
+
+##   Funcionalidades
+
+* **Banco de Perguntas Abrangente:** O CogniQI possui um banco de dados com 40 perguntas cuidadosamente elaboradas, abrangendo as áreas de matemática, português, lógica e ciências. As perguntas são distribuídas em diferentes níveis de dificuldade (fácil, médio e difícil) para se adequar à faixa etária das crianças.
+* **Seleção Aleatória de Perguntas:** A cada interação, o chatbot seleciona 10 perguntas aleatoriamente, garantindo que cada experiência seja única e estimulante. A seleção é balanceada para incluir perguntas de todas as áreas do conhecimento.
+* **Múltiplas Tentativas e Dicas:** Para cada pergunta, a criança tem até duas tentativas para fornecer a resposta correta. Se a primeira tentativa estiver incorreta, o chatbot fornece uma dica útil para orientar o raciocínio.
+* **Feedback Imediato e Interativo:** O chatbot avalia as respostas em tempo real, fornecendo feedback imediato sobre o desempenho da criança. As mensagens são encorajadoras e motivacionais, buscando manter o interesse e a confiança.
+* **Relatório de Desempenho Detalhado:** Ao final da sessão, o CogniQI gera um relatório de desempenho completo, apresentando o número total de acertos, o percentual de acertos e uma análise do desempenho por área do conhecimento. O relatório também inclui recomendações personalizadas para reforçar as áreas em que a criança demonstrou maior dificuldade.
+* **Interface Amigável e Intuitiva:** A interação com o chatbot é realizada através do terminal, com uma interface simples e fácil de usar, adequada para crianças com a supervisão de um adulto, se necessário.
     """
-    Chatbot para diagnóstico educacional de crianças de 5 a 12 anos
     Seleciona 10 perguntas aleatórias de um banco de 40 questões
     """
 
